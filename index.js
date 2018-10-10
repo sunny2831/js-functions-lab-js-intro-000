@@ -3,10 +3,7 @@ function happyHolidays(string) {
   return ("Happy holidays!")
 }
 
-if happyHolidaysTo(string) {
-  return (`Happy holidays, ${string}!`)
-}
-else if happyHolidaysTo(holiday, name) {
+function happyHolidaysTo(holiday, name) {
   return (`Happy ${holiday}, ${name}!`)
 }
 
