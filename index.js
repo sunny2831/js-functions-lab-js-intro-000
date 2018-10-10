@@ -3,8 +3,11 @@ function happyHolidays(string) {
   return ("Happy holidays!")
 }
 
-function happyHolidaysTo(string) {
+if happyHolidaysTo(string) {
   return (`Happy holidays, ${string}!`)
+}
+else if happyHolidaysTo(holiday, name) {
+  return (`Happy ${holiday}, ${name}!`)
 }
 
 function holidayCountdown(holiday, days) {
